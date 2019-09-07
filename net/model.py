@@ -47,10 +47,10 @@ class net_residual(nn.Module):
         self.down_2_4 = nn.Conv2d(32*self.n, 128*self.n, kernel_size=3, stride=4)
         self.down_3_5 = nn.Conv2d(64*self.n, 256*self.n, kernel_size=3, stride=4)
 		
-		if self.n == 1:
-			self.relu = nn.LeakyReLU(0.2)
-		if self.n == 2:
-			self.relu = nn.ReLU()
+	if self.n == 1:
+		self.relu = nn.LeakyReLU(0.2)
+	if self.n == 2:
+		self.relu = nn.ReLU()
 
         self.upb_4_2 = UpsampleConvLayer(128*self.n, 32*self.n, kernel_size=3, stride=4)
         self.upb_3_1 = UpsampleConvLayer(64*self.n, 16*self.n, kernel_size=3, stride=4)
