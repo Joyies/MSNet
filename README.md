@@ -1,13 +1,3 @@
-## Preparation
-Using data_argument to enchance the datasets, it will produce below datasets
-```bash
-$ python dara_argument.py --fold_A=IndoorTrainHzay --fold_B=IndoorTrainGT --fold_AB=IndoorTrain 
-
-IndoorTrain
-    \data   hazy image
-    \label  clear image
-```
-
 ## Train
 * Weights：
 <p>&emsp;&emsp;the weights of MSNet256 and MSNet512 in the ITS datasets are released.</p>
