@@ -9,11 +9,10 @@ IndoorTrain
 ```
 
 ## Train
-
 * Weights：
-<p>the weights of MSNet256 and MSNet512 in the ITS datasets are released.</p>
-<p>MSNet256：https://drive.google.com/open?id=1H9CqWKZZwLn8V-nOWjCopyBRzKhZDTvo</p>
-<p>MSNet512：https://drive.google.com/open?id=1oRDLw0y8u5JH0B3eN-nQPqzu0IJlU9XX</p>
+<p>&emsp;&emsp;the weights of MSNet256 and MSNet512 in the ITS datasets are released.</p>
+<p>&emsp;&emsp;MSNet256：https://drive.google.com/open?id=1H9CqWKZZwLn8V-nOWjCopyBRzKhZDTvo</p>
+<p>&emsp;&emsp;MSNet512：https://drive.google.com/open?id=1oRDLw0y8u5JH0B3eN-nQPqzu0IJlU9XX</p>
 
 * MSNet256: 
 ```bash
