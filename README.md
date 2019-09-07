@@ -11,13 +11,13 @@ IndoorTrain
 ## Train
 * Weights：
 <p>the weights of MSNet256 and MSNet512 in the ITS datasets are released.</p>
-* MSNet256：https://drive.google.com/open?id=1H9CqWKZZwLn8V-nOWjCopyBRzKhZDTvo
-* MSNet512：https://drive.google.com/open?id=1oRDLw0y8u5JH0B3eN-nQPqzu0IJlU9XX
-MSNet256: 
+<p>MSNet256：https://drive.google.com/open?id=1H9CqWKZZwLn8V-nOWjCopyBRzKhZDTvo</p>
+<p>MSNet512：https://drive.google.com/open?id=1oRDLw0y8u5JH0B3eN-nQPqzu0IJlU9XX</p>
+* MSNet256: 
 ```bash
 python train.py --cuda --gpus=4 --train=/path/to/train --test=/path/to/test --lr=0.0001 --step=1000 --n 1
 ```
-MSNet512: 
+* MSNet512: 
 ```bash
 python train.py --cuda --gpus=4 --train=/path/to/train --test=/path/to/test --lr=0.0001 --step=1000 --n 2
 ```
