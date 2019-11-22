@@ -6,11 +6,11 @@
 
 * MSNet256: 
 ```bash
-python train.py --cuda --gpus=4 --train=/path/to/train --test=/path/to/test --lr=0.0001 --step=1000 --n 1
+python train.py --train=/path/to/train --test=/path/to/test --lr=0.0001 --step=1000 --n 1
 ```
 * MSNet512: 
 ```bash
-python train.py --cuda --gpus=4 --train=/path/to/train --test=/path/to/test --lr=0.0001 --step=1000 --n 2
+python train.py --train=/path/to/train --test=/path/to/test --lr=0.0001 --step=1000 --n 2
 ```
 
 ### Test
